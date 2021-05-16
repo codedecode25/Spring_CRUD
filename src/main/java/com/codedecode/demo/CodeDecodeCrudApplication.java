@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CodeDecodeCrudApplicationWithGlobalEH {
+public class CodeDecodeCrudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CodeDecodeCrudApplicationWithGlobalEH.class, args);
+		SpringApplication.run(CodeDecodeCrudApplication.class, args);
 	}
 
 }
