@@ -1,0 +1,34 @@
+{
+	"folders": {},
+	"connections": {
+		"microsoft-17884307735-368fde8d9c419ff": {
+			"provider": "sqlserver",
+			"driver": "microsoft",
+			"name": "codedecode",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1433",
+				"database": "codedecode",
+				"url": "jdbc:sqlserver://;serverName=localhost;databaseName=codedecode",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-authentication@": "SQL_SERVER_PASSWORD",
+					"@dbeaver-show-all-schemas@": "false"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
